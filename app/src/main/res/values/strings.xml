@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimpleGamesApp</string>
+    <string name="titlerabbit">How to play?</string>
+    <string name="meaasgeRabbit">When you click start button,The bunny will jump on the screen,you should touch on bunny and save its lifes.
+
+        </string>
+    <string name="meaasgePiano">
+        First you should click on play button.Then you should touch arrow icon during 15 seconds then the best marks display right side in the screen.if you touch other place you will fail
+
+        </string>
+
+    <string name="meaasgeTicToc">
+       There are 2 players can be play this game.each player should mark same icon in any direction then he can be win the game
+
+        </string>
+
+    <string name="meaasgeMemory">
+       This game is memory checking game.When you click new button icon on the screen then the icon visible and few time it will invisible.The player should retouch that button again.if you touch another buttion you will lost the game
+        </string>
+</resources>

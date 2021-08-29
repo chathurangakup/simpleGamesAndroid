@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:background="@drawable/backgroundgradient">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/rabbitgif"
+                android:background="@drawable/rabbit"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bunny"
+                android:textSize="20sp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/tictocgif"
+               android:background="@drawable/tictoc"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="TicToc"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/pianogif"
+                android:background="@drawable/piano"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Piano Tiles"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/memorygif"
+                android:background="@drawable/memory"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Memory Checker"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
